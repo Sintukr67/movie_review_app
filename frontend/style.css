@@ -1,0 +1,134 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #131720;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+
+/* h3 {
+    color: white;
+    margin: 15px 0;
+    font-size: 1.1rem;
+} */
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+
+form {
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+/* input {
+    all: unset;
+    font: 15px system-ui;
+    color:black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+} */
+ input[type="text"] {
+    width: 90%;         /* Ensure visibility */
+    padding: 8px;       /* Easy to click */
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    color: #000;        /* Ensure text is visible */
+    background: #fff;   /* Ensure input box is visible */
+}
+
+
+
+
+
+#section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+
+.card {
+    background-color: #151f30;
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    margin: 15px;
+    overflow: hidden; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+.card p {
+    text-align: left;   /* Better label alignment */
+    color: white;       /* Ensure labels are visible */
+}
+
+
+
+.thumbnail {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0; 
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #4CAF50; /* Green save button */
+    color: white;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button.delete-button {
+    background-color: red;
+    color: white;
+}
+
